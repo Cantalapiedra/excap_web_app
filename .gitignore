@@ -16,3 +16,5 @@ tmp_files/*
 aux/
 
 *old
+
+sets_conf_file
