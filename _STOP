@@ -1,0 +1,17 @@
+#_STOP is part of excap web app.
+#Copyright (C)  2018  Carlos P Cantalapiedra.
+#(terms of use can be found within the distributed LICENSE file).
+
+last_pid=$(cat ./logs/last_pid);
+
+echo "Stopping excap web app...";
+date;
+kill $last_pid;
+
+if [ $? -eq 0 ]; then 
+	echo "... done.";
+        rm ./logs/last_pid;
+else
+	echo "Could not kill excap web app PID $last_pid";
+	exit -1
+fi;

@@ -1,0 +1,432 @@
+/*
+ *# style201306.css is part of Barleymap web app.
+ *# Copyright (C)  2013-2014  Carlos P Cantalapiedra.
+ *# (terms of use can be found within the distributed LICENSE file).
+*/
+
+
+/* General and headers */
+body {margin:0;padding:0;font: normal 15px "Trebuchet MS",Arial,Helvetica,sans-serif;}
+
+header{
+    padding-top:1em;
+    margin: 0 auto;
+    background:#FFCC77;
+    color: #000055;
+}
+    
+h1, h2, h3 { padding:0;text-align:center;vertical-align: middle }
+h1 { font-size: 31px; margin:0;}
+h2 { font-size: 26px; margin:0; }
+h3 { font-size: 12px;margin-bottom:0;}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: #664444;
+    border-bottom: 1px dotted #FFCC00;
+}
+
+a .boton{
+    text-decoration: none;
+}
+
+/* Containers */
+form { margin:0;padding:0; }
+p { margin-top:0;padding-top:0;text-align:justify;line-height:18px; }
+
+#container{
+    margin-top:2em;
+    margin-bottom:1em;
+}
+
+#menu{
+    width: 20%;
+    float: left;
+    background-color:#FFEEDD;
+    color: #000055;
+    font-size: 12px;
+    margin: 0 1% 0 1%;
+    padding: 20px 10px 10px 10px;
+    text-align: justify;
+}
+
+#menu ul{font-style: normal;font-size:15px}
+
+#main_text{
+    background-color:#FFEEDD;
+    color: #000055;
+    font-size: 12px;
+    margin: 0 1% 0 1%;
+    padding: 20px 10px 20px 10px;
+    text-align: justify;
+}
+
+#main_text a{
+    color: #000055;
+}
+
+#main_buttons{
+    text-align:center;
+    background-color:white;
+    margin: 0% 10% 0 10%;
+    padding: 0px 0px 0px 0px;
+}
+
+#main_buttons_table{
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+
+#content{
+        font-size: 10pt;
+	text-align: justify;
+	margin: 0px 0px 0px 25%;
+	padding: 0px 10px;
+}
+footer{
+    clear: left;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* Special */
+#input_query{ /* Input text area */
+    border:solid thin;
+    position:relative;
+    width:100%;
+    resize:none
+}
+
+.infobar{
+    border-top:dashed thin grey;
+    border-bottom: solid thin black;
+    padding: 2px 0 2px 0;
+    background-color:#FFAA55;
+    color:black;
+    font-family: monospace;
+    font-size: 8pt;
+    font-weight: 100;
+}
+
+input.demobutton{
+    cursor:pointer;
+    font-size:80%;
+    font-weight:bold;
+    width:50px;
+    background-color:#0080FF;
+    border-color:#0066CC;
+    border-width:1px;
+}
+
+#clear_demo_button{
+    cursor:pointer;
+    display: inline;
+    width:50px;
+    background-color:#FF0000;
+}
+
+#align_demo_button{
+    cursor:pointer;
+    display: inline;
+    width:50px;
+    background-color:#0080FF;
+}
+
+#align_clear_file_button{
+    cursor:pointer;
+    display:inline;
+    width:50px;
+    background-color:#0080FF;
+}
+
+#align_my_file{
+    cursor:pointer;
+    display:inline;
+    width:auto;
+    background-color:white;
+    font-weight:normal;
+}
+
+#find_demo_button_full{
+    cursor:pointer;
+    display:inline;
+    width:90px;
+    background-color:#FF8000;
+}
+
+#find_demo_button_region{
+    cursor:pointer;
+    display:inline;
+    width:80px;
+    background-color:#FF6000;
+}
+
+#find_clear_file_button{
+    cursor:pointer;
+    display:inline;
+    width:50px;
+    background-color:#FF8000;
+}
+
+#find_my_file{
+    cursor:pointer;
+    display:inline;
+    width:auto;
+    background-color:white;
+    font-weight:normal;
+}
+
+.explain_text{ /* Little blue text giving help */
+    font-style:italic;font-size:small;color:blue
+}
+
+#genes_text{ /* Helping text in Genes radio button */
+    margin-left:1em;
+    margin-top:1em;
+    text-align:left;
+}
+
+#genes_table{
+    width:100%;
+    text-align:center;
+}
+
+#genes_table td{
+    border:none;
+}
+
+#genes_annot_td{
+    text-align:left;
+}
+
+#input_extend_fieldset{
+    width:100%;
+    text-align:left;
+}
+
+#input_extend_text{
+    margin-left:1em;
+    margin-top:1em;
+    text-align:left;
+}
+
+.map_title{
+    text-align:left;
+    font-size:medium;
+}
+
+#alignment_fieldset{
+    width:815px;
+}
+#align_fieldset{
+    text-align:center;
+    width:300px;
+    height:80px;
+}
+
+#find_fieldset{
+    text-align:center;
+    width:200px;
+    height:80px;
+}
+
+#submit_button{
+    border:none;
+    cursor:pointer;
+    padding: 0px 0px 0px 0px;
+    width:120px;
+    height:53px;
+}
+
+#submit_button img{
+    width:120px;
+    height:53px;
+}
+
+#submit_button_td{
+    width:300px;
+    text-align:center;
+}
+
+#button_dataset{
+    float:left;
+}
+
+#datasets_text{
+    margin-top:5px;
+    margin-left:1em;
+    width: 40%;
+    float:left;
+}
+
+#input_datasets{
+    margin-top:5px;
+    margin-left:1em;
+    float:left;
+}
+
+#results_section{
+    margin-left:2em;
+}
+
+.results_table_title{
+    font-weight: bold;
+    font-size: small;
+}
+
+.results_table_title a{
+    font-weight: normal;
+}
+
+.top_link{
+    font-weight: small;
+}
+
+.toggle_button{
+    border:none;
+    cursor:pointer;
+    display:block;
+    padding: 0px 0px 0px 0px;
+    width:40px;
+    height:40px;
+}
+
+#body_section{
+    margin-left:2em;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-right:2em;
+}
+
+#positions_table{
+    border-style: solid;
+    border-width: thin;
+    border-color: #001188;
+    background-color: #EEEEFF;
+    text-align:center;
+    font-size: 12px;
+    /*table-layout: fixed;*/
+    width: 100%;
+}
+
+#positions_table th{
+    border-style: solid;
+    border-width: thin;
+    border-color: #001188;
+    background-color:#BBCCFF;
+    padding:2px 10px 2px 10px;
+}
+
+#positions_table tr{
+    /*line-height: 12px;*/
+}
+
+#positions_table td.std_td{
+    border-style:solid;
+    border-width: thin;
+    border-color: #7788FF;
+    background-color:#DDEEFF;
+    padding:2px 10px 2px 10px;
+}
+
+#positions_table td.empty_td{
+    border-style:none;
+    border-width: thin;
+    border-color: #FFFFFF;
+    background-color:#EEEEFF;
+    padding:2px 10px 2px 10px;
+}
+
+#positions_table td.feature_td{
+    border-style:solid;
+    border-width: thin;
+    border-color: #FFFFFF;
+    background-color:#FFFFFF;
+    padding:2px 10px 2px 10px;
+    /*white-space:nowrap;*/
+}
+
+.unmapped_table{
+    border-style: solid;
+    border-width: thin;
+    border-color: #001188;
+    background-color: #EEEEFF;
+    text-align:center;
+    font-size: 12px;
+}
+
+.unmapped_table th{
+    border-style: solid;
+    border-width: thin;
+    border-color: #001188;
+    background-color:#BBCCFF;
+    padding:2px 10px 2px 10px;
+}
+
+.unmapped_table td{
+    border-style:solid;
+    border-width: thin;
+    border-color: #7788FF;
+    background-color:#DDEEFF;
+    padding:2px 10px 2px 10px;
+}
+
+.tab{
+    padding-right:2em;
+}
+
+.help_article{
+    width: 96%;
+    margin-right:4%;
+}
+
+.help_section{
+    text-align: left;
+}
+
+.help_section h2{
+    text-align:center;
+    font-size:large;
+}
+
+.help_section h3{
+    text-align:left;
+    font-size: 14px;
+}
+
+.help_section .top_link{
+    float:right;
+}
+
+.help_menu{
+    line-height:160%;
+    font-size:medium;
+    list-style-type:none;
+}
+
+.help_menu li{
+    list-style-type:none;
+}
+
+.help_menu a{
+    text-decoration: none;
+    color:#994000;
+}
+
+.help_list{
+    line-height:140%;
+}
+
+/* END */

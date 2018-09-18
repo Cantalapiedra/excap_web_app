@@ -1,0 +1,5 @@
+#_RESTART is part of excap web app.
+#Copyright (C)  2018  Carlos P Cantalapiedra.
+#(terms of use can be found within the distributed LICENSE file).
+
+./_STOP && ./_START

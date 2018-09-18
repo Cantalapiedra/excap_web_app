@@ -1,0 +1,14 @@
+#_START is part of excap web app.
+#Copyright (C)  2018  Carlos P Cantalapiedra.
+#(terms of use can be found within the distributed LICENSE file).
+
+echo "Launching excap web app...";
+date;
+python ./src/server.py >>./logs/server.log 2>>./logs/server.err &
+
+# PID
+last_pid=$!;
+echo $last_pid > ./logs/last_pid;
+
+date >> ./logs/start_date.log &&
+echo "excap web app is working.";

@@ -1,0 +1,7 @@
+climbar	ClimBar	/home/cantalapiedra/SNP_panels/exome_climbar/jointGenotyperSNPs_CLIMBAR_wholeChrCords_annotated_filteredSNPs.vcf
+climbar	ClimBar	/home/cantalapiedra/SNP_panels/exome_climbar/jointGenotyperSNPs_CLIMBAR_wholeChrCords_annotated_filteredIndels.vcf
+climbar_refilter	Climbar_refilter_441792	/home/cantalapiedra/SNP_panels/exome_climbar/refilter_eead/climbar.refilter.snpEff.vcf
+climbar_relaxed	Climbar_relaxed_799142	/home/cantalapiedra/SNP_panels/exome_climbar/refilter_eead/climbar.refilter.relaxed.snpEff.vcf
+sbcc_refilter	SBCC_refilter_455600	/home/cantalapiedra/SNP_panels/exome_sbcc/IBSC2017_as_ref/climbar.sbcc.snps.refilter.snpEff.vcf
+sbcc_relaxed	SBCC_relaxed_608955	/home/cantalapiedra/SNP_panels/exome_sbcc/IBSC2017_as_ref/climbar.sbcc.refilter.relaxed.snpEff.vcf
+ibsc2012	IBSC2012	/home/cantalapiedra/SNP_panels/exome_sbcc/IBSC2012_as_ref/all.filtered.morex.snpeff.vcf

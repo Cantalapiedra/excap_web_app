@@ -1,0 +1,15 @@
+theme: jekyll-theme-leap-day
+exclude:
+  - .gitignore
+  - LICENSE
+  - app_aux
+  - conf
+  - css
+  - img
+  - js
+  - logs
+  - src
+  - tmp_files
+  - _START
+  - _STOP
+  - _RESTART
