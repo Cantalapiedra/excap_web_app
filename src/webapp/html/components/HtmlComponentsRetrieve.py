@@ -69,7 +69,7 @@ class HtmlComponentsRetrieve(object):
                 <fieldset style="border:none;">
                     <legend>Start pos</legend>
                     <textarea rows="1" cols="16" id="retrieve_start" name="start"
-                    autofocus="autofocus"></textarea>
+                    autofocus="autofocus">0</textarea>
                 </fieldset>
         """)
         
@@ -77,7 +77,7 @@ class HtmlComponentsRetrieve(object):
                 <fieldset style="border:none;">
                     <legend>End pos</legend>
                     <textarea rows="1" cols="16" id="retrieve_end" name="end"
-                    autofocus="autofocus"></textarea>
+                    autofocus="autofocus">0</textarea>
                 </fieldset>
         """)
         output.append('</td>')

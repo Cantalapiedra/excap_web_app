@@ -54,8 +54,8 @@ class Root():
         try:
             excap_settings = cherrypy.request.app.config['excapsettings']
             
-            if not start: start = -1
-            if not end: end = -1
+            if not start: start = 0
+            if not end: end = 0
             if not maxmiss: maxmiss = 1.0
             if not maxhets: maxhets = 1.0
             if not maf: maf = 0.0

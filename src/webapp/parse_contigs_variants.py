@@ -125,8 +125,8 @@ def parse_contigs(query, sets_list, start, end,
             #sys.stderr.write(contig+"\n")
             
             pos = long(line_data[VCF_POS_COL])
-            if (start != -1 and pos < start): continue
-            if (end != -1 and pos > end): break
+            if (start != 0 and pos < start): continue
+            if (end != 0 and pos > end): break
             if len(variants_list) > 0 and not [contig, pos] in variants_list: continue
             #sys.stderr.write(str(pos)+"\n")
             #sys.stderr.write(str(start)+"\n")

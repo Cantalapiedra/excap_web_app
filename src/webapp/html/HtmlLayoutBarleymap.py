@@ -166,6 +166,8 @@ class HtmlLayoutBarleymap(object):
             <li><strong>Chr</strong>: write the chromosome identifier, choose the "Contig/chr" option in the radio button.
             Example: chr1H</li>
             It is VERY IMPORTANT to specify <strong>start</strong> and <strong>end</strong> positions when searching in chromosomes.
+            If not <strong>start</strong> and <strong>end</strong> positions are specified,
+            all positions from a given contig, chromosome or gene will be reported.
             <li><strong>Gene</strong>: write the gene identifier and choose the "Gene" option in the radio button.
             If the identifier does not contain ".", results for all the gene isoforms will be reported. Example: MLOC_3.
             If the identifier contains ".", results from only a specific isoform will be reported. Exmaple: MLOC_3.2.</li>

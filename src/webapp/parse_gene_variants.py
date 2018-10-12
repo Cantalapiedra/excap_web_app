@@ -138,6 +138,8 @@ def parse_genes(query, sets_list, start, end,
             contig = line_data[VCF_CONTIG_COL]
             #sys.stderr.write(str(line_data)+"\n")
             pos = long(line_data[VCF_POS_COL])
+            if (start != 0 and pos < start): continue
+            if (end != 0 and pos > end): break
             if len(variants_list) > 0 and not [contig, pos] in variants_list: continue
             
             variant_dict = {'var_id':-1, 'contig':contig, 'pos':pos, \
